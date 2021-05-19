@@ -1,0 +1,22 @@
+{
+  "name": "gencli",
+  "version": "1.0.0",
+  "description": "A CLI to generate CLIs",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {  
+    "gencli": "./bin/index.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashikka/gencli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashikka/gencli/issues"
+  },
+  "homepage": "https://github.com/ashikka/gencli#readme"
+}
