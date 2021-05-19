@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {  
-    "gencli": "./bin/index.js"  
+  "bin": {
+    "gencli": "./bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/ashikka/gencli/issues"
   },
-  "homepage": "https://github.com/ashikka/gencli#readme"
+  "homepage": "https://github.com/ashikka/gencli#readme",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2"
+  }
 }
