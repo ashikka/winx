@@ -9,10 +9,8 @@ const options = yargs
   .help(true)
   .argv;
 
-if (yargs.argv._[0] === null || yargs.argv._[1] === null) {
-  utils.showHelp();
-}
-
 if (yargs.argv._[0] && yargs.argv._[1]) {
   utils.makeCLI(yargs.argv._[0], yargs.argv._[1]);
+} else {
+  utils.showHelp();
 }
