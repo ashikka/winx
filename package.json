@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/ashikka/gencli#readme",
   "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
     "yargs": "^17.0.1"
   },
   "devDependencies": {
