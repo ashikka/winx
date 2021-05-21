@@ -9,4 +9,8 @@ const options = yargs
   .help(true)
   .argv;
 
-console.log('Hello World');
+console.log('Hello World!');
+
+if (yargs.argv.help) {
+  utils.yourCLIHelp();
+}
