@@ -12,7 +12,14 @@ const makeCLI = async (cliName, cliPath) => new Promise((resolve, reject) => {
       reject(console.log(chalk.red(err)));
       return;
     }
-    resolve(console.log(boxen(chalk.green(`CLI: ${chalk.yellow(cliName)} successfully created on path: ${chalk.yellow(cliPath)}`), { padding: 2, borderColor: 'yellow' })));
+    resolve(console.log(
+      boxen(
+        chalk.green(
+          `CLI: ${chalk.yellow(cliName)} successfully created on path: ${chalk.yellow(cliPath)}`,
+        ),
+        { padding: 2, borderColor: 'yellow' },
+      ),
+    ));
   });
 });
 
