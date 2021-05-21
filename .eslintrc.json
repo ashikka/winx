@@ -12,6 +12,7 @@
     },
     "rules": {
         "no-console": "off",
-        "no-useless-concat": "off"
+        "no-useless-concat": "off",
+        "no-unused-vars": "off"
     }
 }
