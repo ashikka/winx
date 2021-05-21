@@ -3,7 +3,7 @@ const yargs = require('yargs');
 const utils = require('./utils');
 
 const usage = '\nUsage: gencli <cli-name> <path>';
-// eslint-disable-next-line no-unused-vars
+
 const options = yargs
   .usage(usage)
   .help(true)

@@ -1,11 +1,13 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
 const chalk = require('chalk');
 const boxen = require('boxen');
 
 const makeCLI = async (cliName, cliPath) => new Promise((resolve, reject) => {
   const myPath = path.join(cliPath, `/${cliName}`);
-  fs.mkdir(myPath, (err) => {
+  const samplePath = path.join(__dirname, '..', 'sample_cli');
+
+  fs.copy(samplePath, myPath, (err) => {
     if (err) {
       reject(console.log(chalk.red(err)));
       return;
