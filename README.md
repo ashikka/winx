@@ -8,10 +8,10 @@
     <img src="https://csivit.com/images/favicon.png" alt="Logo" width="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">gencli</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A CLI to generate CLIs
     <br />
     <a href="https://github.com/csivitu/Template"><strong>Explore the docs »</strong></a>
     <br />
