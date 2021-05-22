@@ -1,0 +1,19 @@
+{
+  "name": "your-cli",
+  "version": "1.0.0",
+  "description": "Your CLI description",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "your-cli": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "yargs": "^17.0.1"
+  }
+}
