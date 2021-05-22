@@ -56,9 +56,10 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [yargs](https://www.npmjs.com/package/yargs)
+* [fs-extra](https://www.npmjs.com/package/fs-extra)
+* [boxen](https://www.npmjs.com/package/boxen)
+* [chalk](https://www.npmjs.com/package/chalk)
 
 
 
@@ -79,11 +80,11 @@ npm install npm@latest -g
  
 1. Clone the repo
 ```sh
-git clone https://github.com/csivitu/Template.git
+git clone https://github.com/ashikka/gencli.git
 ```
 2. Install NPM packages
 ```sh
-npm install
+npm install -g
 ```
 
 
