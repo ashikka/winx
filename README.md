@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/csivitu/Template">
-    <img src="https://csivit.com/images/favicon.png" alt="Logo" width="80">
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/f2cwGRh/Screenshot-from-2021-05-22-23-30-10.png" alt="Screenshot-from-2021-05-22-23-30-10" border="0"></a>
   </a>
 
   <h3 align="center">gencli</h3>
@@ -44,8 +44,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/LQhJPtH/Screenshot-from-2021-05-22-23-23-29.png" alt="Screenshot-from-2021-05-22-23-23-29" border="0"></a>
+<a href="https://ibb.co/Trsnk9m"><img src="https://i.ibb.co/8XHR016/Screenshot-from-2021-05-22-23-28-51.png" alt="Screenshot-from-2021-05-22-23-28-51" border="0"></a>
+</p>
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
