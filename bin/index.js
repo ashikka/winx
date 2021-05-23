@@ -2,7 +2,7 @@
 const yargs = require('yargs');
 const utils = require('./utils');
 
-const usage = '\nUsage: gencli <cli-name> <path>';
+const usage = '\nUsage: makecli <cli-name> <path>';
 
 const options = yargs
   .usage(usage)
