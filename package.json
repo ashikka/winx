@@ -1,5 +1,5 @@
 {
-  "name": "gencli",
+  "name": "gen-cli",
   "version": "1.0.0",
   "description": "A CLI to generate CLIs",
   "main": "bin/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashikka/gencli.git"
+    "url": "git+https://github.com/ashikka/gen-cli.git"
   },
   "author": "ashikka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashikka/gencli/issues"
+    "url": "https://github.com/ashikka/gen-cli/issues"
   },
-  "homepage": "https://github.com/ashikka/gencli#readme",
+  "homepage": "https://github.com/ashikka/gen-cli#readme",
   "dependencies": {
     "boxen": "^5.0.1",
     "chalk": "^4.1.1",
