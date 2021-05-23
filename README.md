@@ -49,9 +49,7 @@
 <a href="https://ibb.co/Trsnk9m"><img src="https://i.ibb.co/8XHR016/Screenshot-from-2021-05-22-23-28-51.png" alt="Screenshot-from-2021-05-22-23-28-51" border="0"></a>
 </p>
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Template`
+**gencli** is a development tool created to speed up your CLI development,so that you don't need to setup up your CLI project. It comes with well-defined directories and files, with all the packages needed installed, and pre-made config files to, so that you don't need to go through the painstaking process of setting up everything. 
 
 
 ### Built With
@@ -77,26 +75,38 @@ npm install npm@latest -g
 ```
 
 ### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/ashikka/gencli.git
-```
-2. Install NPM packages
-```sh
-npm install -g
-```
 
+Either through cloning with git or by using npm (the recommended way):
 
+1. Install NPM packages
+```sh
+npm install -g nodemon gencli
+```
+And gencli will be installed globally to your system path.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To check if installation was successful, use the command: 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```
+gencli --version
+```
+This will display the latest version. 
 
+After installation, run the command below in your terminal:
 
+```
+gencli --help 
+```
+The help menu with all the options will be listed. 
+
+To create your own cli, use the command: 
+
+```
+gencli <you-cli> <path>
+```
+`<your-cli>` argument takes the CLI's name  and `<path>` take the preferred path you want the CLI directory to be generated at on your local system. If no path is specified then the CLI will be generated in your current directory. 
 
 <!-- ROADMAP -->
 ## Roadmap
