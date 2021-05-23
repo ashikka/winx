@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashikka/gen-cli.git"
+    "url": "git+https://github.com/ashikka/winx.git"
   },
   "author": "ashikka",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashikka/gen-cli/issues"
+    "url": "https://github.com/ashikka/winx/issues"
   },
-  "homepage": "https://github.com/ashikka/gen-cli#readme",
+  "homepage": "https://github.com/ashikka/winx#readme",
   "dependencies": {
     "boxen": "^5.0.1",
     "chalk": "^4.1.1",
