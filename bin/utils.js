@@ -25,9 +25,9 @@ const makeCLI = async (cliName, cliPath) => new Promise((resolve, reject) => {
 });
 
 const showHelp = () => {
-  const gencli = "\n                       _ _ \n                      | (_)\n  __ _  ___ _ __   ___| |_ \n / _` |/ _ \\ '_ \\ / __| | |\n| (_| |  __/ | | | (__| | |\n \\__, |\\___|_| |_|\\___|_|_|\n  __/ |                    \n |___/                     \n";
-  console.log(chalk.whiteBright(gencli));
-  console.log(boxen('Usage: gen-cli <cli-name> <path>', { padding: 2, borderColor: 'yellow' }));
+  const makecli = "\n                       _ _ \n                      | (_)\n  __ _  ___ _ __   ___| |_ \n / _` |/ _ \\ '_ \\ / __| | |\n| (_| |  __/ | | | (__| | |\n \\__, |\\___|_| |_|\\___|_|_|\n  __/ |                    \n |___/                     \n";
+  console.log(chalk.whiteBright(makecli));
+  console.log(boxen('Usage: makecli <cli-name> <path>', { padding: 2, borderColor: 'yellow' }));
   console.log('Options:\r\n\t--version\t      ' + 'Show version number.' + '\t\t' + '[boolean]\r \n\t--help\t\t      ' + 'Show help.' + '\t\t\t' + '[boolean]\n');
 };
 
