@@ -8,7 +8,7 @@
     <a href="https://imgbb.com/"><img src="https://i.ibb.co/f2cwGRh/Screenshot-from-2021-05-22-23-30-10.png" alt="Screenshot-from-2021-05-22-23-30-10" border="0"></a>
   </a>
 
-  <h3 align="center">gencli</h3>
+  <h3 align="center">gen-cli</h3>
 
   <p align="center">
     A CLI to generate CLIs
