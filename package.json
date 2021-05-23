@@ -1,5 +1,5 @@
 {
-  "name": "makecli",
+  "name": "winx",
   "version": "1.0.0",
   "description": "A CLI to generate CLIs",
   "main": "bin/index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "makecli": "./bin/index.js"
+    "winx": "./bin/index.js"
   },
   "repository": {
     "type": "git",
