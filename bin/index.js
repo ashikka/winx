@@ -6,11 +6,15 @@ const usage = '\nUsage: gencli <cli-name> <path>';
 
 const options = yargs
   .usage(usage)
-  .help(true)
+  .help(false)
   .argv;
 
 if (yargs.argv._[0] && yargs.argv._[1]) {
   utils.makeCLI(yargs.argv._[0], yargs.argv._[1]);
 } else {
+  utils.showHelp();
+}
+
+if (yargs.argv.help) {
   utils.showHelp();
 }
