@@ -16,7 +16,7 @@ const makeCLI = async (cliName, cliPath) => new Promise((resolve, reject) => {
     resolve(console.log(
       boxen(
         chalk.green(
-          `CLI: ${chalk.yellow(cliName)} successfully created on path: ${chalk.yellow(cliPath)}`,
+          `CLI: ${chalk.cyanBright.bold(cliName)} successfully created on path: ${chalk.cyanBright.bold(cliPath)}`,
         ),
         { padding: 2, borderColor: 'yellow' },
       ),
@@ -25,9 +25,11 @@ const makeCLI = async (cliName, cliPath) => new Promise((resolve, reject) => {
 });
 
 const showHelp = () => {
-  const winx = "\n                       _ _ \n                      | (_)\n  __ _  ___ _ __   ___| |_ \n / _` |/ _ \\ '_ \\ / __| | |\n| (_| |  __/ | | | (__| | |\n \\__, |\\___|_| |_|\\___|_|_|\n  __/ |                    \n |___/                     \n";
-  console.log(chalk.whiteBright(winx));
-  console.log(boxen('Usage: winx <cli-name> <path>', { padding: 2, borderColor: 'yellow' }));
+  const winxCommand = chalk.cyanBright('winx');
+  const options = chalk.greenBright.bold('<cli-name> <path>');
+  const winx = '\n██╗    ██╗██╗███╗   ██╗██╗  ██╗\n██║    ██║██║████╗  ██║╚██╗██╔╝\n██║ █╗ ██║██║██╔██╗ ██║ ╚███╔╝ \n██║███╗██║██║██║╚██╗██║ ██╔██╗ \n╚███╔███╔╝██║██║ ╚████║██╔╝ ██╗\n ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝\n';
+  console.log(chalk.blueBright(winx));
+  console.log(boxen(`Usage: ${winxCommand} ${options}`, { padding: 2, borderColor: 'yellow' }));
   console.log('Options:\r\n\t--version\t      ' + 'Show version number.' + '\t\t' + '[boolean]\r \n\t--help\t\t      ' + 'Show help.' + '\t\t\t' + '[boolean]\n');
 };
 

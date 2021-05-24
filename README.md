@@ -4,8 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/csivitu/Template">
-    <a href="https://imgbb.com/"><img src="https://i.ibb.co/f2cwGRh/Screenshot-from-2021-05-22-23-30-10.png" alt="Screenshot-from-2021-05-22-23-30-10" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/K9BwvSZ/Screenshot-from-2021-05-24-15-20-01.png" alt="Screenshot-from-2021-05-24-15-20-01" border="0"></a>
   </a>
 
   <h3 align="center">winx</h3>
@@ -45,8 +44,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/LQhJPtH/Screenshot-from-2021-05-22-23-23-29.png" alt="Screenshot-from-2021-05-22-23-23-29" border="0"></a>
-<a href="https://ibb.co/Trsnk9m"><img src="https://i.ibb.co/8XHR016/Screenshot-from-2021-05-22-23-28-51.png" alt="Screenshot-from-2021-05-22-23-28-51" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/K7yK5Sk/Screenshot-from-2021-05-24-15-22-18.png" alt="Screenshot-from-2021-05-24-15-22-18" border="0"></a>
+<a href="https://ibb.co/y00ND6P"><img src="https://i.ibb.co/VVVLdg9/Screenshot-from-2021-05-24-15-24-11.png" alt="Screenshot-from-2021-05-24-15-24-11" border="0"></a>
 </p>
 
 **winx** is a development tool created to speed up your CLI development,so that you don't need to setup up your CLI project. It comes with well-defined directories and files, with all the packages needed installed, and pre-made config files to, so that you don't need to go through the painstaking process of setting up everything. 
@@ -82,7 +81,7 @@ Either through cloning with git or by using npm (the recommended way):
 ```sh
 npm install -g winx
 ```
-And gencli will be installed globally to your system path.
+And winx will be installed globally to your system path.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
