@@ -1,13 +1,7 @@
 #! /usr/bin/env node
+
 const yargs = require('yargs');
 const utils = require('./utils');
-
-const usage = '\nUsage: makecli <cli-name> <path>';
-
-const options = yargs
-  .usage(usage)
-  .help(false)
-  .argv;
 
 if (yargs.argv._[0]) {
   if (yargs.argv._[1]) {
@@ -16,9 +10,5 @@ if (yargs.argv._[0]) {
     utils.makeCLI(yargs.argv._[0], __dirname);
   }
 } else {
-  utils.showHelp();
-}
-
-if (yargs.argv.help) {
   utils.showHelp();
 }

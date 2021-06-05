@@ -11,8 +11,6 @@
         "ecmaVersion": 12
     },
     "rules": {
-        "no-console": "off",
-        "no-useless-concat": "off",
-        "no-unused-vars": "off"
+        "no-console": "off"
     }
 }
