@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const yargs = require('yargs');
+const yargs = require('./import-yargs');
 const utils = require('./utils');
 
 if (yargs.argv._[0]) {
