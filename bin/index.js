@@ -1,5 +1,6 @@
 #! /usr/bin/env node
-const yargs = require('yargs');
+
+const yargs = require('./import-yargs');
 const utils = require('./utils');
 
 const usage = '\nUsage: makecli <cli-name> <path>';
